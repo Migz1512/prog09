@@ -2,7 +2,7 @@
 
 function verificarIdade(idade){
     if( idade >= 0 && idade < 16){
-        return 'Você Não Precisa Votar'
+        return 'Você Não Pode Votar'
     }else if( idade >= 18 && idade <= 70){
         return 'Seu Voto é Obrigatório!'
     }else if( idade >= 16 && idade <= 17 ){
